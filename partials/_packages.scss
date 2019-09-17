@@ -1,0 +1,10 @@
+.packages{
+    padding: 15px; 
+    &__container{
+        border: 1px solid $myOrange;
+        padding: 15px;
+        &:hover{
+            background-color: $myGrey;
+        }
+    }
+}

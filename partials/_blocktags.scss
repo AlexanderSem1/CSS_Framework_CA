@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans'; 
+}
+h1{
+    font-size: myRem(36); 
+}
+a{
+    color: $myWhite !important;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0; 
+}
+.intro{
+    padding: 0 100px 50px;
+}
+.btn{
+    color:$myWhite; 
+            padding: 8px 20px; 
+            background-color: $myOrange;  
+            font-weight: 800; 
+            border-radius: 0;
+            &:hover{
+                color: $myBlack; 
+            }
+}
+label{
+    font-weight: 400; 
+}
+.contact__button{
+    margin-bottom: 100px; 
+}

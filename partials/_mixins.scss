@@ -1,0 +1,6 @@
+@mixin myRem($pxSize) {
+   font-size: $pxSize/16 +rem; 
+}
+h1{
+   @include myRem(36); 
+}

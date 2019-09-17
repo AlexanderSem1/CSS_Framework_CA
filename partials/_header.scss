@@ -1,0 +1,32 @@
+.navbar{
+    background-color: $myBlue; 
+    border-radius: 0; 
+    padding: 0 15px;
+    margin-bottom: 0;  
+    border-color: $myBlue; 
+    &-brand{
+        @include myRem(48); 
+        font-weight: 800; 
+    }
+}
+.navbar .navbar-nav>li>a{
+    padding-left: 0; 
+}
+.navbar-inverse .navbar-toggle{
+    border-color: $myBlue;  
+}
+.navbar-nav>.active{
+    font-weight: 1000;  
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: $myBlue !important; 
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-header > a:hover{
+    color: $myBlack !important;
+}
+
+.navbar .navbar-header>a, .navigation__list--item{
+    font-weight: 200; 
+}
+
